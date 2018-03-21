@@ -1,0 +1,5 @@
+netapp7.cs.kookmin.ac.kr
+node1.planetlab.mathcs.emory.edu
+node2.planetlab.mathcs.emory.edu
+pl1.eng.monash.edu.au
+pl1.rcc.uottawa.ca
