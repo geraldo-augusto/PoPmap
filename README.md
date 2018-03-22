@@ -2,6 +2,8 @@
 
 ### Dependências:
 
+* Instalar o vxargs
+* Bibliotecas python: pip install --user requirements.txt
 
 
 ### Siga os seguintes passos:
