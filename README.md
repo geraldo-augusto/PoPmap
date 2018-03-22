@@ -4,7 +4,7 @@
 Siga os seguintes passos:
 
 1)Crie um diretorio para guardar uma nova medição do planetLab:  
-	>>> mkdir ~/medicaoPl  
+	*>>> mkdir ~/medicaoPl  
 	
 2)Crie uma lista de IPs para medir, com um IP por linha.  
 	>>> Um exemplo de lista de IPs está em exemplos/hitlist.txt  
