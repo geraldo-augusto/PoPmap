@@ -1,5 +1,9 @@
 # PoPmap
 
+### Dependências:
+
+
+
 ### Siga os seguintes passos:
 
 1. Crie um diretorio para guardar uma nova medição do planetLab:
@@ -8,7 +12,7 @@
 	
 1. Crie uma lista de IPs para medir, com um IP por linha.
 
-   * Um exemplo de lista de IPs está em exemplos/hitlist.txt
+   * Um exemplo de lista de IPs está em [link](exemplos/hitlist.txt)
 
 1. Crie uma lista dos hosts dos computadores usados para medição, com um hostname por linha.
    * Um exemplo de lista de hosts está em exemplos/nodelist.txt
@@ -25,7 +29,7 @@
 
    * Observações:
 	
-         1. diretorioMedicao é o diretorio criado no item 1
+      1. diretorioMedicao é o diretorio criado no item 1
       1. arquivoHitlist é a lista de IPs do item 2
       1. taxaMedicoes = quantos IPs serão medidos por segundo
       1. sliceName é o nome do usuário que irá logar nas máquinas remotas, no caso do planetLab é o nome do slice
@@ -103,7 +107,3 @@
 1. É criado um arquivo chamado clusters.txt na pasta out/saidaK. Cada linha possui o seguinte formato:
    * Formato:
       ```$ (IdCluster)\t(lista de ips separados por vírgula)```
-
-
-
-
