@@ -14,7 +14,9 @@ Siga os seguintes passos:
 
 4)Crie uma nova medição para o PlanetLab com:  
 	Formato:  
-	>>> python criaMedicao.py diretorioMedicao arquivoHitlist taxaMedicoes sliceName  
+```
+>>> python criaMedicao.py diretorioMedicao arquivoHitlist taxaMedicoes sliceName
+```
 	Exemplo:  
 	>>> python criaMedicao.py ~/medicaoPl ./exemplos/hitlist.txt 10 ufmg_cipops  
 	Observações:  
