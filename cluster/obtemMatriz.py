@@ -14,14 +14,11 @@ def completaCoordenadas(coordenadas):
 		coordenadas[posicao] = mediana
 
 if __name__=='__main__':
-	if len(sys.argv) < 4:
-		print 'uso: python obtemMatriz.py diretorioColeta hitlistColeta diretorioSaida'
+	if len(sys.argv) < 3:
+		print 'uso: python obtemMatriz.py diretorioColeta hitlistColeta'
 	else:
-		#diretorio = '/scratch/geraldo/ic/planetLab/final3/minhaMaquina/coleta'
-		#hitlist = '/scratch/geraldo/ic/planetLab/final3/planetLab/listas/hitlist.txt'
 		diretorio = sys.argv[1]
 		hitlist = sys.argv[2]
-		diretorioSaida = sys.argv[3]
 		
 		experimento = leDiretorio(diretorio,hitlist)
 		hitlist=experimento[1]
@@ -41,6 +38,11 @@ if __name__=='__main__':
 					completaCoordenadas(coordenadas)
 				pontosValidos.append(coordenadas)
 				ipsCorrespondentes.append(ip)
+		
+		if '/' not in sys.argv[0]:
+			diretorioSaida = '.'
+		else:
+			diretorioSaida = sys.argv[0][:len(sys.argv[0])-len(sys.argv[0].split('/')[-1])-1]
 			
 		arquivo = open(diretorioSaida+'/listaIps.txt','w')
 		for ip in ipsCorrespondentes:
