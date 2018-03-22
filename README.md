@@ -12,7 +12,7 @@
 	
 1. Crie uma lista de IPs para medir, com um IP por linha.
 
-   * Um exemplo de lista de IPs está em [linkasdfasdf](exemplos/hitlist.txt)
+   * Um exemplo de lista de IPs está em [exemplos/hitlist.txt](exemplos/hitlist.txt)
 
 1. Crie uma lista dos hosts dos computadores usados para medição, com um hostname por linha.
    * Um exemplo de lista de hosts está em exemplos/nodelist.txt
