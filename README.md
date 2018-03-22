@@ -13,8 +13,8 @@ Siga os seguintes passos:
 	>>> Um exemplo de lista de hosts está em exemplos/nodelist.txt  
 
 4)Crie uma nova medição para o PlanetLab com:  
-	Formato:  
 ```
+Formato:  
 >>> python criaMedicao.py diretorioMedicao arquivoHitlist taxaMedicoes sliceName
 Exemplo:  
 >>> python criaMedicao.py ~/medicaoPl ./exemplos/hitlist.txt 10 ufmg_cipops
