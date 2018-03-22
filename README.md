@@ -16,16 +16,15 @@ Siga os seguintes passos:
 	Formato:  
 ```
 >>> python criaMedicao.py diretorioMedicao arquivoHitlist taxaMedicoes sliceName
+Exemplo:  
+>>> python criaMedicao.py ~/medicaoPl ./exemplos/hitlist.txt 10 ufmg_cipops
+Observações:  
+a)diretorioMedicao é o diretorio criado no item 1  
+b)arquivoHitlist é a lista de IPs do item 2  
+c)taxaMedicoes = quantos IPs serão medidos por segundo  
+d)sliceName é o nome do usuário que irá logar nas máquinas remotas, no caso do planetLab é o nome do slice  
+e)Serão criados dois diretorios. O 'diretorioLocal' guardará as ferramentas e os dados coletados. O 'diretorioRemoto' contém os arquivos que serão copiados para o diretorio remoto.  
 ```
-	Exemplo:  
-	>>> python criaMedicao.py ~/medicaoPl ./exemplos/hitlist.txt 10 ufmg_cipops  
-	Observações:  
-	a)diretorioMedicao é o diretorio criado no item 1  
-	b)arquivoHitlist é a lista de IPs do item 2  
-	c)taxaMedicoes = quantos IPs serão medidos por segundo  
-	d)sliceName é o nome do usuário que irá logar nas máquinas remotas, no caso do planetLab é o nome do slice  
-	e)Serão criados dois diretorios. O 'diretorioLocal' guardará as ferramentas e os dados coletados. O 'diretorioRemoto' contém os arquivos que serão copiados para o diretorio remoto.  
-
 5)Adicione a sua chave privada no ssh-agent  
 	Exemplo:  
 	>>> ssh-add ~/.ssh/planetlab/id_rsa  
