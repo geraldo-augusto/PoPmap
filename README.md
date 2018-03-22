@@ -15,7 +15,7 @@
    * Um exemplo de lista de IPs está em [exemplos/hitlist.txt](exemplos/hitlist.txt)
 
 1. Crie uma lista dos hosts dos computadores usados para medição, com um hostname por linha.
-   * Um exemplo de lista de hosts está em exemplos/nodelist.txt
+   * Um exemplo de lista de hosts está em [exemplos/nodelist.txt](exemplos/nodelist.txt)
 
 1. Crie uma nova medição para o PlanetLab com:
 
@@ -51,9 +51,9 @@
       ```$ ~/medicaoPl/diretorioLocal/copy.sh -i ./exemplos/nodelist.txt -l ufmg_cipops -d ~/medicaoPl/diretorioRemoto```
    * Observações:
 	
-       1. NODELIST foi criada no item 3
-	   1. SLICE é o nome do usuário que irá logar nas máquinas remotas
-	   1. BASEDIR é a pasta 'diretorioLocal' criada dentro da pasta do experimento.
+      1. NODELIST foi criada no item 3
+      1. SLICE é o nome do usuário que irá logar nas máquinas remotas
+      1. BASEDIR é a pasta 'diretorioLocal' criada dentro da pasta do experimento.
 
 1. Inicie as medições com:
 
