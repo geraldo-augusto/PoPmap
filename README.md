@@ -1,13 +1,13 @@
 # PoPmap
 
 ### Video explicando o uso:
-* Em construção(pronto até 23 de março)
+* Está disponível em [gravacaoPoPmap.mp4](gravacaoPoPmap.mp4)
 
 
 ### Dependências:
 
 * Instalar o vxargs
-* Bibliotecas python: pip install --user requirements.txt
+* Bibliotecas python: ```$ pip install --user requirements.txt```
 
 
 ### Siga os seguintes passos:
