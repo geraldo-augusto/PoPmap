@@ -3,7 +3,12 @@ import os
 
 def constroiDiretorio(localDiretorio,arquivoHitlist,taxaMedicoes,sliceName):
 	os.system('mkdir %s/diretorioRemoto'%localDiretorio)
+	os.system('mkdir %s/diretorioRemoto/listas'%localDiretorio)
+	os.system('mkdir %s/diretorioRemoto/resultados'%localDiretorio)
+	os.system('mkdir %s/diretorioRemoto/tmp'%localDiretorio)
 	os.system('mkdir %s/diretorioLocal'%localDiretorio)
+	os.system('mkdir %s/diretorioLocal/coleta'%localDiretorio)
+	os.system('mkdir %s/diretorioLocal/log'%localDiretorio)
 	os.system('cp -r arquivos/diretorioRemoto/* %s/diretorioRemoto'%localDiretorio)
 	os.system('cp -r arquivos/diretorioLocal/* %s/diretorioLocal'%localDiretorio)
 	os.system('chmod 777 -R %s/diretorioLocal'%localDiretorio)
