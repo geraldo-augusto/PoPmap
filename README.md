@@ -1,5 +1,8 @@
 # PoPmap
 
+### Paper do trabalho:
+* Acesse o pdf aqui: [paper-popmap.pdf](popmap-paper.pdf)
+
 ### Video explicando o uso:
 * Está disponível em [gravacaoPoPmap.mp4](gravacaoPoPmap.mp4)
 
